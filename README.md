@@ -9,7 +9,7 @@ Due: **DATE HERE**
 ## Learning Goals
 
 - Use React to build a dynamic and attractive user interface
-- Organize the behavior of a complex SPA
+- Organize the behavior of a complex SPA (single-page application)
 - Independently research and integrate a new technology
 - Remember how Rails works
 - Own both ends of an API
