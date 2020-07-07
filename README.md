@@ -20,11 +20,11 @@ This project has two main components: a Rails API and a React front-end. You wil
 
 ## Problem Statement
 
-Our rental store employees want to be able to manage their rental inventory. They want to be able to search through all movies and pick and choose which movies they want to add to their rental library. They want to be able to manage their rental library. We will be using an external API to build in searching for *all movies*. We will use our existing Rails API to manage the *rental library*.
+Our rental store employees want to be able to manage their rental inventory. They want to be able to search through all videos and pick and choose which videos they want to add to their video library. They want to be able to manage their video library. We will be using an external API to build in searching for _all videos_. We will use our existing Rails API to manage the _video library_.
 
 ## Project Information
 
-This project will be utilizing an external API within an API! Whoa! Your front-end implementation will be interacting with a **Rails API** that you will be modifying. The Rails API wraps an **external API** which contains many endpoints related to movies. The external API is [The Movie DB](https://www.themoviedb.org/documentation/api).
+This project will be utilizing an external API within an API! Whoa! Your front-end implementation will be interacting with a **Rails API** that you will be modifying. The Rails API wraps an **external API** which contains many endpoints related to videos. The external API is [The Movie DB](https://www.themoviedb.org/documentation/api).
 
 The requirements for this project are intentionally open-ended. Part of your job is to work with your partner to prioritize them.
 
@@ -67,17 +67,17 @@ Each pair/group will give a short presentation on their project and their learni
 If I am a rental store employee...
 
 - From the home page, I can navigate to the following pages:
-  - Movie search page
-  - Movie library page
+  - Video search page
+  - Video library page
   - Customer list page
-- From the movie search page, I can search for a movie by title from the external API
-- From the movie search results, I can add a movie from the search results to the rental library
-- From the rental library page, I can see a list of all movies in the rental library
-- From the rental library list, I can "select" a movie from the rental library. My movie selection will continue to be visible as I navigate the app.
+- From the video search page, I can search for a video by title from the external API
+- From the video search results, I can add a video from the search results to the video library
+- From the video library page, I can see a list of all videos in the video library
+- From the video library list, I can "select" a video from the video library. My video selection will continue to be visible as I navigate the app.
 - On the customer list page, I can see a list of all customers
 - From the customer list, I can "select" a customer. My customer selection will continue to be visible as I navigate the app.
-- Given I have selected a movie and a customer, I can check out the selected movie for the selected customer
-  - NOTE: a checkout is between ONE movie and ONE customer
+- Given I have selected a video and a customer, I can check out the selected video for the selected customer
+  - NOTE: a checkout is between ONE video and ONE customer
 
 ### The React Router
 
@@ -89,8 +89,8 @@ Your front-end should use the [React Router](https://reacttraining.com/react-rou
 Your front-end should have at least the following routes:
 
 - `/` (home page)
-- `/search` (movie search page: allows the user to search for a movie from the external API)
-- `/library` (rental library page: lists movies in the rental library)
+- `/search` (video search page: allows the user to search for a video from the external API)
+- `/library` (video library page: lists videos in the video library)
 - `/customers` (customer list page: lists customers)
 
 You can have more if you want (for example `/customers/:id`), but ultimately the design of your user interface is up to you.
@@ -106,34 +106,34 @@ You can have more if you want (for example `/customers/:id`), but ultimately the
 ## Back-End Requirements
 
 The Rails back-end already has a lot of functionality implemented. You can:
-- Get the list of movies in the library
-- Search for movies in the external API
-- Get details on an individual movie
+- Get the list of videos in the library
+- Search for videos in the external API
+- Get details on an individual video
 - Get a list of customers
-- Check movies in and out
-- Get a list of all overdue movies
+- Check videos in and out
+- Get a list of all overdue videos
 
 It is worth taking the time to read through this Rails code and understand how the different pieces of the server fit together.
 
-For the core requirements, you will need to add the ability to add a movie from the external API to our library. Things to consider:
+For the core requirements, you will need to add the ability to add a video from the external API to our library. Things to consider:
 
-- How does the front-end specify which movie to add?
-- Where does the Rails server get the information about the movie?
-- What happens if you try to add the same movie twice?
+- How does the front-end specify which video to add?
+- Where does the Rails server get the information about the video?
+- What happens if you try to add the same video twice?
 
 ## Optional Enhancements
 Some of these optional requirements require work in the front-end only, back-end only or both.
 
 - Deploy your front-end to GitHub Pages, and your back-end to AWS
 - Set up TravisCI for continuous integration on your back-end
-- Allow a user to interact with a Movie by clicking
-  - When _selected_, a Movie shows more information
-  - When _deselected_, a Movie returns to its default state
-  - Only one movie can be selected at a time - selecting another movie deselects the one which was selected
-- Add a detail page for a customer to see the movies they have checked out. Overdue movies should be highlighted.
-- Be able to check in movies from the customer details page
+- Allow a user to interact with a Video by clicking
+  - When _selected_, a Video shows more information
+  - When _deselected_, a Video returns to its default state
+  - Only one video can be selected at a time - selecting another video deselects the one which was selected
+- Add a detail page for a customer to see the videos they have checked out. Overdue videos should be highlighted.
+- Be able to check in videos from the customer details page
 - Full CRUD for customers
-- Introduce scrolling pagination to dynamically load more movies when scrolling to the bottom (research!!)
+- Introduce scrolling pagination to dynamically load more videos when scrolling to the bottom (research!!)
 
 ## Presentation Requirements
 
@@ -143,7 +143,7 @@ This presentation should be a concise demo of your project and also talking thro
 
 Please include the following things in your demo:
 - **ONE** of the following user flows to demo:
-  - Search for a movie and select a movie
+  - Search for a video and select a video
   - I can look at the customers and see a customer
 - Describe the process of this project:
   - What were some of the challenges and victories of this project?

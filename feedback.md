@@ -29,19 +29,19 @@ At project submission, we expect more tests/assertions, and 0 skips
 
 | Criteria                                                                                                                                                   | yes/no, and optionally any details/lines of code to reference |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| There are controller tests around adding a movie to the database including tests around adding a movie twice and adding a movie not in the movie database. | ✔️?                                                            |
-| There are API controller actions which allow the user to add a movie to the database.                                                                      | ✔️?                                                            |
-| The api uses the movie database via HTTParty to pull movie content.                                                                                        | ✔️?                                                            |
-| You cannot add a movie twice.                                                                                                                              | ✔️?                                                            |
+| There are controller tests around adding a video to the database including tests around adding a video twice and adding a video not in the video database. | ✔️?                                                            |
+| There are API controller actions which allow the user to add a video to the database.                                                                      | ✔️?                                                            |
+| The api uses the video database via HTTParty to pull video content.                                                                                        | ✔️?                                                            |
+| You cannot add a video twice.                                                                                                                              | ✔️?                                                            |
 
 ## Functional Requirements -- Front-End
 
 | Functional Requirement                                          | yes/no |
 | --------------------------------------------------------------- | ------ |
 | You can navigate to the search, library and customer list pages | ✔️?     |
-| You can search for movies                                       | ✔️?     |
-| You can add a new movie                                         | ✔️?     |
-| You can rent a movie                                            | ✔️?     |
+| You can search for videos                                       | ✔️?     |
+| You can add a new video                                         | ✔️?     |
+| You can rent a video                                            | ✔️?     |
 
 ## Overall Feedback
 
