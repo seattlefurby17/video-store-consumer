@@ -43,7 +43,6 @@ Each pair/group will give a short presentation on their project and their learni
   - Install dependencies using `$npm install`
 - Both partners shall then
   - Start the development server using `npm start`
-  - Start the test watcher using `npm test`
 
 ### 2. External API Configuration
 
@@ -134,6 +133,7 @@ Some of these optional requirements require work in the front-end only, back-end
 - Be able to check in videos from the customer details page
 - Full CRUD for customers
 - Introduce scrolling pagination to dynamically load more videos when scrolling to the bottom (research!!)
+- Create tests for each component using previous projects and the [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) docs as a guide.
 
 ## Presentation Requirements
 
