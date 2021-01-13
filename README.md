@@ -26,6 +26,8 @@ Our rental store employees want to be able to manage their rental inventory. The
 
 This project will be utilizing an external API within an API! Whoa! Your front-end implementation will be interacting with a **Rails API** that you will be modifying. The Rails API wraps an **external API** which contains many endpoints related to videos. The external API is [The Movie DB](https://www.themoviedb.org/documentation/api).
 
+![Videostore Fullstack Diagram](images/videstore_fullstack.png)
+
 The requirements for this project are intentionally open-ended. Part of your job is to work with your partner to prioritize them.
 
 Each pair/group will give a short presentation on their project and their learnings to the class at the conclusion of the project.
@@ -40,10 +42,9 @@ Each pair/group will give a short presentation on their project and their learni
   - Clone the repository
 - The other partner shall then:
   - Clone their partner's repository (without forking)
-  - Install dependencies using `$npm install`
+  - Install dependencies using `$yarn`
 - Both partners shall then
-  - Start the development server using `npm start`
-  - Start the test watcher using `npm test`
+  - Start the development server using `yarn start`
 
 ### 2. External API Configuration
 
@@ -122,6 +123,7 @@ For the core requirements, you will need to add the ability to add a video from 
 - What happens if you try to add the same video twice?
 
 ## Optional Enhancements
+
 Some of these optional requirements require work in the front-end only, back-end only or both.
 
 - Deploy your front-end to GitHub Pages, and your back-end to AWS
@@ -134,6 +136,7 @@ Some of these optional requirements require work in the front-end only, back-end
 - Be able to check in videos from the customer details page
 - Full CRUD for customers
 - Introduce scrolling pagination to dynamically load more videos when scrolling to the bottom (research!!)
+- Create tests for each component using previous projects and the [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) docs as a guide.
 
 ## Presentation Requirements
 
@@ -156,4 +159,5 @@ Please include the following things in your demo:
 There is no expectation for a slideshow.
 
 ## What we're looking for
+
 You can see what your instructors are looking for [here](./feedback.md)
