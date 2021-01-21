@@ -27,6 +27,7 @@ const VideoLib = () => {
         <p>id: {video.id}</p>
         <p>overview: {video.overview}</p>
         <p>release_date: {video.release_date}</p>
+        <p>available_invetory: {video.inventory}</p>
         <img src={video.image_url}  alt =''/> 
       </div>
     )

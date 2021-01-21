@@ -9,7 +9,13 @@ const VideoSearchResult = (props) => {
     const onButtonClick = () => {
         axios.post(LIBRARY_URL, {inventory: 1, ...props.video})
         .then((response) => {
-          setSuccessMsg('Video Added!')
+          if(response.data.title){
+            setSuccessMsg('Video Added!')
+          } else {
+            setSuccessMsg('Video Already in Library')
+          }
+          
+
     })
         .catch((error) => {
         setErrorMsg(error.message);
